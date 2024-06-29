@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>My portFolio website</title>
+    <link rel="icon" href="images/icons8-portfolio-96.png" >
     <link rel="stylesheet" href="output.css">
     <link rel="stylesheet" href="input.css">
     <script src="https://cdn.tailwindcss.com"></script>
@@ -14,7 +15,6 @@
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <style>
-     
         .hidden {
             display: none;
         }
@@ -25,7 +25,7 @@
 
 
     <div class="fixed w-full z-10">
-        <nav class="flex items-center justify-end px-4 py-3 bg-white shadow-md md:bg-transparent h-20">
+        <nav class="flex items-center justify-end px-4 py-3  shadow-md md:backdrop-blur-sm backdrop-blur-sm h-20">
 
             <!-- Mobile menu button-->
             <div class="md:hidden">
@@ -48,7 +48,8 @@
     </div>
 
     <!-- Mobile Menu  -->
-    <div id="mobile-menu" class="fixed w-[100%]  md:hidden mt-12  hidden bg-white shadow-md z-50">
+    <div id="mobile-menu"
+        class="fixed w-[100%]  md:hidden mt-12  hidden backdrop-blur-sm backdrop-blur-sm shadow-md z-50">
         <div class="flex flex-col h-[300px] justify-center items-center font-bold">
             <a href="#home" class="block px-4 py-2 text-gray-800 hover:text-[#FEBD59]">HOME</a>
             <a href="#about" class="block px-4 py-2 text-gray-800 hover:text-[#FEBD59]">ABOUT</a>
@@ -79,8 +80,8 @@
                         class="flex items-center justify-center duration-300 ease-in-out transform hover:scale-110  border-2 border-[#FEBD59] hover:border-white h-[50px] w-[50px] rounded-full bg-white hover:bg-[#FEBD59]"><i
                             class='bx hover:text-white text-[#FEBD59] bxl-instagram-alt'></i></a>
                     <a href="https://wa.me/7510180451"
-                        class="flex items-center justify-center duration-300 ease-in-out transform hover:scale-110  border-2 border-[#FEBD59] hover:border-white h-[50px] w-[50px] rounded-full bg-white hover:bg-[#FEBD59]"><i 
-                        class='bx hover:text-white text-[#FEBD59] bxl-whatsapp' ></i></a>
+                        class="flex items-center justify-center duration-300 ease-in-out transform hover:scale-110  border-2 border-[#FEBD59] hover:border-white h-[50px] w-[50px] rounded-full bg-white hover:bg-[#FEBD59]"><i
+                            class='bx hover:text-white text-[#FEBD59] bxl-whatsapp'></i></a>
                     <a href="https://github.com/MohammedJasim001"
                         class="flex items-center justify-center duration-300 ease-in-out transform hover:scale-110  border-2 border-[#FEBD59] hover:border-white h-[50px] w-[50px] rounded-full bg-white hover:bg-[#FEBD59]"><i
                             class='bx hover:text-white text-[#FEBD59] bxl-github'></i></a>
@@ -103,14 +104,13 @@
 
     <div id="about" class=" grid grid-row-2 md:grid-cols-2 mt-40 md:mt-0 h-screen items-center justify-center ">
         <div class=" flex justify-center items-center">
-            <div class="flex flex-col gap-3 ">
+            <div class="flex flex-col gap-3 ml-10 w-[80%] ">
                 <h2 class="font-bold text-4xl">ABOUT</h2>
 
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>
-                    Pariatur, ducimus saepe quos dolores sed totam facere <br>
-                    maiores expedita! Voluptas cupiditate, praesentium quam molestiae
-
-                    <br> quidem recusandae adipisci aperiam vitae tempore quas!
+                <p class="font-medium "> Welcome! I am a budding developer passionate about coding
+                    and eager to learn and grow in the world of software development. My journey began with a
+                    fascination for technology, br and now I specialize in HTML/CSS, JavaScript.
+                    Explore my portfolio to see how my enthusiasm and skills can benefit your next development endeavor.
                 </p>
                 <botton class="bg-[#FEBD59] hover:text-white flex items-center justify-center w-32 p-2 rounded-lg"><a
                         href="#contact" class="smooth-scroll">CONTACT</a></botton>
@@ -167,29 +167,29 @@
         <div class=" flex flex-col md:flex-row items-center justify-center gap-10 md:gap-12  ">
             <div class="h-72 w-96 md:w-[30%] flex-col flex items-center md:gap-3 ">
                 <div class=" rounded-lg h-[100%] w-80 md:w-[100%] flex items-center justify-center  ">
-                    <img src="images/Screenshot 2024-06-28 184054.png " class="w-[100%] h-[80%] md:h-[100%] border-2 border-[#FEBD59]">
+                    <img src="images/Screenshot 2024-06-28 184054.png "
+                        class="w-[100%] h-[80%] md:h-[100%] border-2 border-[#FEBD59]">
 
                 </div>
-                <div
-                    class="flex items-center justify-center w-60 md:w-[100%] font-bold">W3 Scholl nav bar</div>
+                <div class="flex items-center justify-center w-60 md:w-[100%] font-bold">W3 Scholl nav bar</div>
             </div>
             <div class="h-72 w-96 md:w-[30%] flex-col flex items-center md:gap-3 ">
                 <div class=" rounded-lg h-[100%] w-80 md:w-[100%] flex items-center justify-center  ">
-                    <img src="images/Screenshot 2024-06-29 095421.png" class="w-[100%] h-[80%] md:h-[100%] border-2 border-[#FEBD59]">
+                    <img src="images/Screenshot 2024-06-29 095421.png"
+                        class="w-[100%] h-[80%] md:h-[100%] border-2 border-[#FEBD59]">
 
                 </div>
-               <div
-                    class="flex items-center justify-center w-60 md:w-[100%] font-bold">Bank balance using js</div>
+                <div class="flex items-center justify-center w-60 md:w-[100%] font-bold">Bank balance using js</div>
             </div>
             <div class="h-72 w-96 md:w-[30%] flex-col flex items-center md:gap-3">
                 <div class=" rounded-lg h-[100%] w-80 md:w-[100%] flex items-center justify-center  ">
-                    <img src="images/Screenshot 2024-06-29 095452.png" class="w-[100%] h-[80%] md:h-[100%] border-2 border-[#FEBD59]">
+                    <img src="images/Screenshot 2024-06-29 095452.png"
+                        class="w-[100%] h-[80%] md:h-[100%] border-2 border-[#FEBD59]">
 
                 </div>
-                <div
-                    class="   flex items-center justify-center w-60 md:w-[100%]  font-bold">Paytm Interface</div>
+                <div class="   flex items-center justify-center w-60 md:w-[100%]  font-bold">Paytm Interface</div>
             </div>
-            
+
         </div>
     </div>
 
